@@ -1,0 +1,57 @@
+.task-form {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    background: var(--light-gray);
+    border-bottom: 1px solid #ddd;
+    flex-wrap: wrap;
+  }
+  
+  .task-input {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .priority-select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    background: var(--white);
+    min-width: 150px;
+  }
+  
+  .add-button {
+    background: var(--primary-color);
+    color: var(--white);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.3s;
+  }
+  
+  .add-button:hover {
+    background: var(--secondary-color);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .task-form {
+      flex-direction: column;
+    }
+    
+    .task-input,
+    .priority-select,
+    .add-button {
+      width: 100%;
+    }
+  }
