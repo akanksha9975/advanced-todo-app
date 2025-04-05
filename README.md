@@ -1,12 +1,33 @@
-# React + Vite
+#  Advanced Todo List with Weather Info 🌦️✅
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An advanced Todo List application built using **React 19**, **Redux Toolkit**, and **Redux Saga**, powered by **Vite**. This app helps users manage their daily tasks categorized into **High**, **Medium**, and **Low** priorities. It also integrates weather data like **temperature**, **wind**, and **precipitation** for an enhanced daily planning experience.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Add, edit, and delete tasks with priority tags (High, Medium, Low)
+- 🎯 Filter tasks based on priority
+- 🌦️ Fetch and display real-time weather, wind speed, and precipitation
+- 🔁 State management using Redux Toolkit & Redux Saga
+- ⚛️ Built with modern React (v19) and React Router DOM (v7)
+- ⚡ Fast dev server and build with Vite
+- 🧹 Code linting with ESLint and React Hooks rules
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧰 Tech Stack
+
+- **React 19**
+- **Redux Toolkit**
+- **Redux Saga**
+- **React Router DOM**
+- **Vite**
+- **ESLint** (with plugins for React and Hooks)
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/akanksha9975/quadb-tech.git
+cd quadb-tech
+npm install
